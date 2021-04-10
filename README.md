@@ -3,6 +3,7 @@
 <p align="center">
 <img src="/media/gumball_machine.jpg" width="25%" height="25%">
 </p>
+DONATE - qrvyahhjwygm0eurz2rxctln6en26kf07vz0zancl7
 
 ## Description
 This project serves as a proof-of-concept Cryptocurrency Vending Machine (or "ATM"), more widely known as a "Bitcoin ATM." The aim is to teach people about how Bitcoin, and other cryptocurrencies work.  The idea came about when at a meetup group where people were still new to the space, but wanted to learn about how this works by enabling to buy small amounts of crypto and learn about setting up a wallet, as well as sending and receiving crypto.
@@ -12,7 +13,7 @@ This Vending Machine was designed with simplicity in mind from the code all way 
 ## Table of Contents
 * [Disclaimer](#disclaimer)
 * [Hardware Requirements](#hardware-requirements)
-* Software Requirements
+* [Software Requirements](#software-requirements)
 * [Training A Coin Acceptor](#training-a-coin-acceptor)
 * [Arduino Components](#arduino-software-components)
   * [LCD Panel with Arduino](#lcd-panel-with-arduino)
@@ -238,5 +239,4 @@ It's time to connect everything together. Pretty sure this is straight-forward f
 
 ** FYI This is still a work in progress and documentation is still being completed **
 
-DONATE - qrvyahhjwygm0eurz2rxctln6en26kf07vz0zancl7
 
