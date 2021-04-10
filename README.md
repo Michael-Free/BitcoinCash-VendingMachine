@@ -251,6 +251,14 @@ It's time to connect everything together. Pretty sure this is straight-forward f
 
 
 ### Starting the Server
+In order to run the Flask application, some environment variables to run the Flask Webserver on the ATM:
+
+```
+export FLASK_APP="kiosk_server.py"
+export FLASK_ENV=development
+export FLASK_DEBUG=0
+```
+```kiosk_servery.py``` is going to be where the ATM server is ran from.
 
 ** FYI This is still a work in progress and documentation is still being completed **
 
