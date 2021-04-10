@@ -3,7 +3,8 @@
 <p align="center">
 <img src="/media/gumball_machine.jpg" width="25%" height="25%">
 </p>
-DONATE - qrvyahhjwygm0eurz2rxctln6en26kf07vz0zancl7
+## DONATE 
+qrvyahhjwygm0eurz2rxctln6en26kf07vz0zancl7
 
 ## Description
 This project serves as a proof-of-concept Cryptocurrency Vending Machine (or "ATM"), more widely known as a "Bitcoin ATM." The aim is to teach people about how Bitcoin, and other cryptocurrencies work.  The idea came about when at a meetup group where people were still new to the space, but wanted to learn about how this works by enabling to buy small amounts of crypto and learn about setting up a wallet, as well as sending and receiving crypto.
@@ -50,6 +51,12 @@ Please note that this repository hasn't been through a security audit, and runni
 - 1 x Universal Power Adaptor - https://amzn.to/2X3Jbs6
 
 ## Software Requirements
+Most of the requirements can be found in the Python `requirements.txt` file in this repo.  Aside from this, the following are requirements:
+* Ubuntu 18.04+ OR Rasbpian OS Buster+
+  * Either can be installed on the Raspberry Pi 3b+ but Ubuntu 18.04 would be needed if this is going to be installed on a PC.
+* Python 3.7+
+* Arduino Software IDE 1.8+
+  * This doesn't need to be installed on the ATM Pi/PC. It only needs to be used on the computer you're using to write to the Arduino itself.
 
 ## Training a Coin Acceptor
 Here is a copy of the manual that's freely available online, but I have included it here in this documentation.  This is a great way to learn about the acceptor and have it trained for every type of coin you might throw at it:
