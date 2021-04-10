@@ -52,12 +52,19 @@ Please note that this repository hasn't been through a security audit, and runni
 - 1 x Universal Power Adaptor - https://amzn.to/2X3Jbs6
 
 ## Software Requirements
-Most of the requirements can be found in the Python `requirements.txt` file in this repo.  Aside from this, the following are requirements:
+Most of the requirements are default libraries in Python.  Aside from them, the following are requirements:
 * Ubuntu 18.04+ OR Rasbpian OS Buster+
   * Either can be installed on the Raspberry Pi 3b+ but Ubuntu 18.04 would be needed if this is going to be installed on a PC.
-* Python 3.7+
+* Python 3.7+ plus these libraries:
+  * configparser - needed to interpret the contents of `config.ini`
+  * serial - needed for serial communication between the computer and the arduinos
+  * flask - web application framework for communication with the end user, twilio, and more
+  * twilio - library needed to interact with twilio's API.  Twilio interfaces with the end user via text message.
+  * cashaddress - this converts a legacy Bitcoin Cash Address to the new address format.
+  * bitcash - a bitcoin cash library for python.
 * Arduino Software IDE 1.8+
-  * This doesn't need to be installed on the ATM Pi/PC. It only needs to be used on the computer you're using to write to the Arduino itself.
+  * This doesn't need to be installed on the ATM Pi/PC. 
+  * It only needs to be used on the computer you're using to write to the Arduino itself.
 
 ## Training a Coin Acceptor
 Here is a copy of the manual that's freely available online, but I have included it here in this documentation.  This is a great way to learn about the acceptor and have it trained for every type of coin you might throw at it:
