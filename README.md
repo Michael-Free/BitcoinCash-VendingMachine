@@ -260,6 +260,8 @@ export FLASK_DEBUG=0
 ```
 ```kiosk_servery.py``` is going to be where the ATM server is ran from. This needs to be ran on the ATM's command line.
 
-** FYI This is still a work in progress and documentation is still being completed **
+Now to run the application - ```flask run --host=0.0.0.0``` - The ATM is now running! Now we can start a transaction.  Text "BEGIN" to the Twilio phone number you have created and setup with this application. You'lll be prompted in a text message to send your Bitcoin Cash address.  Make sure your phone number is now displayed on the LCD screen.
+
+Once a Bitcoin Cash Address is received, it will be verified.  If it's a legitimate address, you will see the words "INSERT COINS" written on the LCD Screen.  Drop them in, and BCH will be sent to your address after you've finished dropping coins in.
 
 
